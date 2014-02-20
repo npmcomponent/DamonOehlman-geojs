@@ -1,40 +1,10 @@
 {
-  "name": "geojs",
+  "name": "damonoehlman-geojs",
   "description": "Simple Geospatial Types and Tools for Javascript",
-  "main": "geojs.js",
-  "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
   "version": "0.3.1",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/DamonOehlman/geojs.git"
-  },
-  "bugs": {
-    "url": "https://github.com/DamonOehlman/geojs/issues"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "debug": "*",
-    "mocha": "1.6.x",
-    "expect.js": "0.1.x"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/DamonOehlman/geojs/raw/LICENCE"
-    }
-  ],
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
-  },
-  "engines": {
-    "node": "*"
-  },
-  "homepage": "https://github.com/DamonOehlman/geojs",
-  "directories": {
-    "test": "test"
-  },
   "keywords": [
-    "geo",
     "geospatial"
-  ]
+  ],
+  "main": "geojs.js",
+  "dependencies": {}
 }
